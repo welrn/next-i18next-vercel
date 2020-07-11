@@ -5,6 +5,7 @@ const localeSubpaths = {
 }
 
 module.exports = {
+  target: 'serverless',
   publicRuntimeConfig: {
     localeSubpaths,
   },
